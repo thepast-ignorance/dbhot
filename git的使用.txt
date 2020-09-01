@@ -1,0 +1,15 @@
+在当前文件夹鼠标右键git Bash Here
+
+git init 初始化，即：让git帮助我们管理当前文件夹
+git status  检测当前文件夹下的文件状态
+  状态
+	红色：新增的文件/修改的了的文件
+	绿色：git已经管理起来
+	生成版本
+	
+git add 文件名  			管理单个文件
+git add . 					管理文件夹下的所有文件
+git commit -m '描述信息'	生成版本
+touch 文件名				新增文件
+git iog						查看记录
+git reset --hard 版本号     回滚（commit后面的就是版本号）
